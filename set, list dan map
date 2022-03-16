@@ -1,0 +1,44 @@
+//Anak Agung Gde Kawiswara Dharma Putra
+//2105551101
+//SET, LIST, DAN MAP
+
+package com.company;
+
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    Set<String> set=new HashSet<String>();
+
+        //masukkan data
+        set.add("081239308933");
+        set.add("081239777888");
+        set.add("081239999000");
+
+        System.out.println(set);
+
+        List<String> list=new ArrayList<String>();
+
+        //masukkan list
+        list.add("Jarkom");
+        list.add("ASTI");
+        list.add("Technopreneurship");
+        list.add("TBD");
+
+        System.out.println(list);
+
+        Map<String, String> map=new HashMap<String, String>();
+
+        //masukkan map
+        map.put("1100", "Putu");
+        map.put("1101", "Made");
+        map.put("1102", "Komang");
+        map.put("1103", "Ketut");
+
+        System.out.println(map);
+
+
+
+    }
+}
